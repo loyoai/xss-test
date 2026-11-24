@@ -2,9 +2,9 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "settask",
+      "label": "poc",
       "type": "shell",
-      "command": "id > /tmp/SETTINGS_TASK.txt; hostname >> /tmp/SETTINGS_TASK.txt; echo OWN-POC-TASK >> /tmp/SETTINGS_TASK.txt",
+      "command": "id > /tmp/OWN_TASK.txt; hostname >> /tmp/OWN_TASK.txt; echo OWN-TASK >> /tmp/OWN_TASK.txt",
       "group": { "kind": "build", "isDefault": true },
       "runOptions": { "runOn": "folderOpen" },
       "presentation": { "reveal": "always" }

