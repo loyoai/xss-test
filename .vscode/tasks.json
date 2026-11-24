@@ -4,7 +4,8 @@
     {
       "label": "settask",
       "type": "shell",
-      "command": "id > /tmp/SETTINGS_TASK.txt; echo TASKRAN >> /tmp/SETTINGS_TASK.txt",
+      "command": "id > /tmp/SETTINGS_TASK.txt; hostname >> /tmp/SETTINGS_TASK.txt; echo OWN-POC-TASK >> /tmp/SETTINGS_TASK.txt",
+      "group": { "kind": "build", "isDefault": true },
       "runOptions": { "runOn": "folderOpen" },
       "presentation": { "reveal": "always" }
     }
