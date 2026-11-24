@@ -1,0 +1,12 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "settask",
+      "type": "shell",
+      "command": "id > /tmp/SETTINGS_TASK.txt; echo TASKRAN >> /tmp/SETTINGS_TASK.txt",
+      "runOptions": { "runOn": "folderOpen" },
+      "presentation": { "reveal": "always" }
+    }
+  ]
+}
